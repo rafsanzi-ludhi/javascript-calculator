@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Casio FX-702P';
+    src: url('./fonts/casio-fx-702p.ttf');
+}
+
+
+/* center calculator container to middle of screen */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818181;
+}
+
+.calculator {
+    width: 300px;
+    height: 400px;
+    background-color: #222;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto repeat(5, 1fr);
+    gap: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.display-screen {
+    font-family: 'Casio FX-702P', monospace;
+    grid-column: 1 / -1;
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color:#84b97a;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+
+}
+
+.current-input {
+    color: rgb(50, 45, 89);
+    font-size: 0.9em;
+    text-align: left;
+    width: 100%;
+}
+
+.previous-input {
+    color: rgb(50, 45, 89);
+    font-size: 0.9em;
+    text-align: right;
+    width: 100%;
+}
+
+button {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
+
+button.clear {
+    grid-column: span 2;
+    background-color: #f59e00;
+}
+
+button.clear:hover {
+    background-color: #ffc758;
+}
+
+button:hover {
+    background-color: #747373;
+}
+
+button.number {
+    background-color: #666;
+}
+
+button.number:hover {
+    background-color: #939393;
+}
+
+button.answer {
+    background-color: #666;
+}
+
+button.answer:hover {
+    background-color: #939393;
+}
+
+button.clear,
+button.delete {
+    background-color: #f59e00;
+}
+
+button.clear:hover,
+button.delete:hover {
+    background-color: #ffc758;
+}
