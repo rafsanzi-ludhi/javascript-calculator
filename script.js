@@ -1,3 +1,4 @@
+
 const currentInput = document.querySelector('.current-input');
 const resultOutput = document.querySelector('.result-output');
 const numberButtons = document.querySelectorAll('.number');
@@ -171,4 +172,3 @@ equalButton.addEventListener('click', () => {
     calculator.equal();
     calculator.updateDisplay();
 });
-
