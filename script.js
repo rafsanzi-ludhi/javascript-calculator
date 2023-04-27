@@ -46,7 +46,7 @@ class Calculator {
 
 
     appendNumber(number) {
-        if (number === '.' && this.currentInputSaved.includes('.')) return; //checks if the current input already contains a decimal point and returns if it does
+        // if (number === '.' && this.currentInputSaved.includes('.')) return; //checks if the current input already contains a decimal point and returns if it does
         this.currentInputSaved = this.currentInputSaved.toString() + number.toString(); //converts the number to a string and appends it to the current input
     }
 
