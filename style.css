@@ -72,7 +72,8 @@ button {
     font-weight: 700;
 }
 
-button.clear {
+button.clear,
+button.equal {
     grid-column: span 2;
     background-color: #f59e00;
 }
