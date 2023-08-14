@@ -147,6 +147,13 @@ button.delete:hover {
         padding-left: 50px;
         /* pushes calculator slightly to the right */
         }
-
 }
-    
+
+@media (max-width: 280px) {
+    .body {
+        width: 50%;
+        /* adjust based on preference */
+        transform: scale(0.5);
+        /* scales down the calculator to 90% of its original size */
+    }
+}
