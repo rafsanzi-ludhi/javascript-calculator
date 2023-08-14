@@ -111,3 +111,42 @@ button.clear:hover,
 button.delete:hover {
     background-color: #ffc758;
 }
+
+/* Adjustments for smartphones and smaller screens */
+@media (max-width: 540px) {
+    .calculator {
+        margin-bottom: unset;
+        margin: auto;
+        max-width: 100vw;   
+        }
+}
+
+@media (max-width: 280px) {
+    .calculator {
+        margin-bottom: unset;
+        margin: auto;
+        max-width: 95vw;;
+        }
+}
+
+/* iPad Air & iPad Mini */
+@media screen and (min-device-width: 768px) and (max-device-width: 1112px) {
+    .calculator {
+        margin-block-end: auto;
+        margin-inline-end: auto;
+        max-width: 100vw;
+    }
+
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    padding-top: 50px;
+                    /* pushes calculator slightly downwards */
+                    padding-left: 50px;
+                    /* pushes calculator slightly to the right */
+                }
+
+}
+    
