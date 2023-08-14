@@ -11,13 +11,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #818181;
+    background-color: #454562;
 }
 
 .calculator {
     width: 300px;
     height: 400px;
-    background-color: #222;
+    background-color: #242326;
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    background-color:#84b97a;
+    background-color:#91be87;
     border-radius: 5px;
     padding: 5px;
     box-sizing: border-box;
@@ -47,7 +47,7 @@ body {
 }
 
 .current-input {
-    color: rgb(50, 45, 89);
+    color: #240041;
     font-size: 0.9em;
     text-align: left;
     width: 100%;
@@ -75,15 +75,15 @@ button {
 button.clear,
 button.equal {
     grid-column: span 2;
-    background-color: #f59e00;
+    background-color: #EE4266;
 }
 
 button.clear:hover {
-    background-color: #ffc758;
+    background-color: #f46e8b;
 }
 
 button:hover {
-    background-color: #747373;
+    background-color: #f46e8b;
 }
 
 button.number {
@@ -99,17 +99,17 @@ button.answer {
 }
 
 button.answer:hover {
-    background-color: #939393;
+    background-color: #f46e8b;
 }
 
 button.clear,
 button.delete {
-    background-color: #f59e00;
+    background-color: #EE4266;
 }
 
 button.clear:hover,
 button.delete:hover {
-    background-color: #ffc758;
+    background-color: #f46e8b;
 }
 
 /* Adjustments for smartphones and smaller screens */
