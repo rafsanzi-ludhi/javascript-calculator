@@ -1,5 +1,5 @@
 # JavaScript Calculator
-Try it out here: [JavaScript Calculator App](https://rafsanzi-ludhi.github.io/CalculatorApp/)
+Try it out here: [JavaScript Calculator App](https://rafsanzi-ludhi.github.io/javascript-calculator/)
 
 Welcome to my JavaScript calculator! This project was a wonderful way for me to delve deeper into JavaScript, DOM manipulation, and user interaction.
 
